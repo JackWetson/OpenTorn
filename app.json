@@ -3,10 +3,17 @@
   "description": "The Ruby on Rails SaaS-in-a-Box",
   "repository": "https://github.com/bullet-train-co/bullet_train",
   "logo": "https://tailwind.bullettrain.co/heroku-logo.png",
-  "keywords": ["ruby", "rails"],
+  "keywords": [
+    "ruby",
+    "rails"
+  ],
   "buildpacks": [
-    { "url": "heroku/nodejs" },
-    { "url": "heroku/ruby" }
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
   ],
   "formation": {
     "web": {
